@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&display=swap');
+
+:root {
+    --font-family: 'Arsenal', sans-serif;
+    --bg-color: #96C99C;
+    --primary-color: #3A316E;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box {
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn-jogar {
+    padding: 8px 15px;
+    border: 2px solid var(--primary-color);
+    background-color: transparent;
+    border-radius: 5px;
+    margin-top: 30px;
+    color: var(--primary-color);
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.btn-jogar:hover {
+    box-shadow: 0 0 10px 0 var(--primary-color);
+}
